@@ -1,0 +1,4 @@
+FROM scratch
+LABEL maintainer="Test"
+COPY ./_install/bin/* /bin/
+CMD ["/bin/sh"]
