@@ -2,7 +2,7 @@
 
 ### How to build
 ```shell
-$ chmod +x ./build.sh
+$ chmod +x ./*.sh
 $ ./build.sh <tag>
 ```
 
@@ -47,5 +47,5 @@ Choose which shell is aliased to 'sh' name (ash)  --->
 ### Config file
 > Automatically generated make config: don't edit
 ```
-./.config
+./*.config
 ```
